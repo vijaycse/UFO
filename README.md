@@ -7,11 +7,11 @@ The goal of this analysis is to create a webpage with a dynamic table that shows
 ## Results
 Previously, the webpage included only a date filter in which users needed to click on a button for the filter to be applied. With the new updated version, users will be able to filter data, simply by inputting a criteria into one of the filter fields. The webpage will then automatically filter the table to display relevant data. The first image ilustrates the table without filters. Users can see the type of format that is required for the filter to function in the text box. Upon input, the table will automatically filter the results accordingly.
 
-![unfiltered_table](https://github.com/vijaycse/UFOs/blob/master/resources/date_filered.PNG)
+![unfiltered_table](https://github.com/vijaycse/UFO/blob/master/resources/date_filtered.png)
 
-![filtered_table](https://github.com/vijaycse/UFOs/blob/master/resources/city_filtered.PNG)
+![filtered_table](https://github.com/vijaycse/UFO/blob/master/resources/date_filtered-1.png)
 
-![date_filtered_table](https://github.com/vijaycse/UFOs/blob/master/resources/date_filtered-1.PNG)
+![city_filtered_table](https://github.com/vijaycse/UFO/blob/master/resources/city_filtered.png)
 
 ## Summary of Analysis
 A small improvement possible is that it is not responsive right now. Some portion of the webpage, such as the image, is able to resize if the user magnifies the webpage, however, the webpage as a whole is unable to do so. Thus, one recommendation for further development would be to add formatting that readjusts the sections and margins when the page is viewed on a mobile device or tablet using something like bootstrap.js, react frameworks that natively provides response sites.
